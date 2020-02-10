@@ -1,3 +1,22 @@
-.body {
-	font: helvetica; 
+body {
+	font-family: helvetica; 
+	text-align: center;
+}
+
+h1 {
+	font-size: 25px; 
+	margin-top: 45px;	
+}
+
+.center {
+ 	left: 0;
+    margin-top: -125px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.menulinks {
+	font-style: italic;
 }
