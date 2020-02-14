@@ -1,0 +1,70 @@
+.column1 {
+  float: left;
+  width: 30%;
+}
+
+.head1 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px; 
+}
+
+  .body1 {
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #FF8E8E;
+  border: 4px solid red;
+  margin: 5px;
+}
+
+.body2 {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 12pt;
+}
+
+.head2 {
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+
+.overall {
+	font-family: helvetica;
+}
+
+.overall1 {
+	font-family: Courier;
+}
+
+.overall2 {
+	font-family: cursive;
+  text-transform: uppercase;
+  
+}
+
+.list {
+	text-align: center;
+}
+
+.lh1 {
+	line-height: 200%;
+}
+
+.lh2 {
+	line-height: 400%;
+}
+
+.lh3 {
+	line-height: 78%;
+}
+
+
