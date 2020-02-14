@@ -20,3 +20,15 @@ h1 {
 .menulinks {
 	font-style: bold;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: slategrey;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
