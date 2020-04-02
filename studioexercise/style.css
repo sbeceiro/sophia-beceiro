@@ -1,0 +1,40 @@
+body {
+	font-family: helvetica; 
+	text-align: left;
+	margin-left: 40px;
+	width: 90%; 
+}
+
+h1 {
+	font-size: 25px; 
+	margin-top: 45px;	
+}
+
+h2 {
+	font-size: 20px; 
+	margin-top: 10px;	
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: slategrey;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
