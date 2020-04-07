@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "EROS",
+  "version": "1.0",
+
+  "description": "a Ralph Ginzburg parasite",
+
+  // "background":
+  //   {
+  //       "scripts": ["scripts/jquery.min.js", "scripts/background.js"]
+  //   },
+
+  "content_scripts": [
+    {
+      "matches": ["https://eros.110west40th.com/"],
+      "js": ["scripts/jquery.min.js", "scripts/main.js"]
+    }
+  ]
+
+}

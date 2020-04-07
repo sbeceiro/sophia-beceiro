@@ -1,0 +1,38 @@
+body {
+	font-family: helvetica; 
+	text-align: left;
+	margin-left: 40px;
+	width: 90%; 
+}
+
+h1 {
+	font-size: 25px; 
+	margin-top: 45px;	
+}
+
+h2 {
+	font-size: 20px; 
+	margin-top: 10px;	
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: slategrey;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+	#flowers {
+		display: flex;
+	}
+
+	.box {
+		border: 2px;
+		margin: 5px;
+		padding: 10px;
+	}
