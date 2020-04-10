@@ -102,15 +102,19 @@ var flowers = [
 ]
 
 for(var i=0; i<flowers.length; i++){
-	$('#flowers').append(flowers[i].name + "<br>")
-	console.log(flowers[i])
+	$('#flowers').append('<div class="box">' + flowers[i].name + '</div>')
 }
 
-for(var i=0; i<flowers.length; i++){
-	$('#flowers').append(flowers[i].color + "<br>")
-	console.log(flowers[i])
-}
+// for(var i=0; i<flowers.length; i++){
+// 	$('#flowers').append(flowers[i].name + "<br>")
+// 	console.log(flowers[i])
+// }
 
-function describeFlower(flowers) {
-	console.log("this flower is", flowers.name, "and is", flowers.color, "it is a", flowers.size, "flower.", "It grows in", flowers.location)
-}
+// for(var i=0; i<flowers.length; i++){
+// 	$('#flowers').append(flowers[i].color + "<br>")
+// 	console.log(flowers[i])
+// }
+
+// function describeFlower(flowers) {
+// 	console.log("this flower is", flowers.name, "and is", flowers.color, "it is a", flowers.size, "flower.", "It grows in", flowers.location)
+// }
