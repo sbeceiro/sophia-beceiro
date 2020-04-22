@@ -1,0 +1,70 @@
+body {
+	height: 500vw;
+	width: 500vw; 
+	background-color: black;
+	font-family: helvetica;
+	margin-left: 40px;
+	width: 40%; 
+
+}
+
+h1 {
+	font-size: 25px; 
+	margin-top: 45px;
+	color: white;	
+}
+
+h2 {
+	font-size: 20px; 
+	margin-top: 10px;
+	color: white;	
+
+}
+
+p {
+	color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: slategrey;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+.menu-heading-container {
+    position: fixed;
+    /*bottom: 100vh;*/
+}
+
+#object1 {
+	position: absolute;
+ 	top: 100vw;
+	right: 10vw;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #73AD21;
+}
+
+#object2 {
+	position: absolute;
+ 	top: 200vw;
+	left: 20vw;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #73AD21;
+}
+
+#object3 {
+	position: absolute;
+ 	top: 300vw;
+	right: 30vw;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #73AD21;
+}

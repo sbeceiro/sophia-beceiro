@@ -1,0 +1,52 @@
+body {
+	font-family: helvetica; 
+	text-align: left;
+	margin-left: 40px;
+	width: 90%; 
+}
+
+h1 {
+	font-size: 25px; 
+	margin-top: 45px;	
+}
+
+h2 {
+	font-size: 20px; 
+	margin-top: 10px;	
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: slategrey;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+	#flowers {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.box {
+		border: 3px dashed;
+		border-color: lightpink;
+		margin: 3px;
+		padding: 10px;
+		background-color: bisque;
+	}
+
+	.mouseDownBox {
+			position: fixed;
+		}
+img {
+    min-height: 100px;
+    max-height: 220px;
+    min-width: 40px;
+    max-width: 100px;
+  }

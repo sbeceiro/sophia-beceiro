@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ojects + Arrays Exercise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h1>Ojects + Arrays Exercise</h1>
+	<h2>Lab</h2>
+	<br><br>
+
+		<div id="flowers"></div>
+
+<div><br><p>to go home click <a href="../index.html">here</a></p>
+
+</body>
+		
+		<script type="text/javascript" src="main.js">
+			var counter = 0;
+
+		$(window).mousedown(function( event ) {
+			var flowersDiv = $('<div/>', {
+				'class': 'mouseDownBox'
+			})
+			.html(flowers[counter%flowers.length].image)
+			.css({'top': event.pageY-50, 'left': event.pageX-50})
+
+			counter = counter+1;
+			$('body').append(flowersDiv)
+		})
+		</script>
+</html>
+
+
+
+
+
+
