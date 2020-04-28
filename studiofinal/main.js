@@ -1,102 +1,115 @@
 
 
-// var flowers = ["rose", "sunflower", "daisy", "tulip", "lily", "daffodil", "orchid", "poppy", "pansy",  "hibiscus", "carnation", "lavender", "lilac", "voilet", "jasmine", "peony"] 
-
 var objects = [
+	// {
+	// 	"name": "birthday song",
+	// 	"type": "video",
+	// 	"link": "media/birthday.mp4",
+	// 	"tag": "zoom, birthday"
+	// },
 	{
-		"name": "rose",
-		"color": "red",
-		"size": "medium",
-		"location":"asia"
+		"name": "postcard",
+		"type": "image",
+		"link": "media/WriteYrFriends.jpg",
+		"tag": "text"
 	},
 	{
-		"name": "daisy",
-		"color": "white",
-		"size": "small",
-		"location":"asia, europe"
+		"name": "birthday",
+		"type": "image",
+		"link": "media/birthday.jpg",
+		"tag": "zoom, birthday"
 	},
 	{
-		"name": "sunflower",
-		"color": "yellow",
-		"size": "large",
-		"location":"north america"
+		"name": "chefs",
+		"type": "image",
+		"link": "media/Gnocchi1.jpg",
+		"tag": "food"
 	},
 	{
-		"name": "tulip",
-		"color": "pink",
-		"size": "medium",
-		"location":"europe"
+		"name": "gnocchi",
+		"type": "image",
+		"link": "media/Gnocchi2.jpg",
+		"tag": "food"
 	},
 	{
-		"name": "lily",
-		"color": "white",
-		"size": "large",
-		"location":"europe, asia, north america"
+		"name": "ramen",
+		"type": "image",
+		"link": "media/ramen.jpg",
+		"tag": "food"
 	},
 	{
-		"name": "daffodil",
-		"color": "yellow",
-		"size": "medium",
-		"location":"europe"
+		"name": "going crazy",
+		"type": "image",
+		"link": "media/goingcrazy.jpg",
+		"tag": "marissa"
 	},
 	{
-		"name": "orchid",
-		"color": "purple",
-		"size": "large",
-		"location": "south america"
+		"name": "moon kissed live",
+		"type": "image",
+		"link": "media/MoonKissed1.png",
+		"tag": "instagram, live, social media"
 	},
 	{
-		"name": "poppy",
-		"color": "red",
-		"size": "medium",
-		"location": "asia"
+		"name": "moon kissed live",
+		"type": "image",
+		"link": "media/MoonKissed2.jpg",
+		"tag": "art"
 	},
 	{
-		"name": "pansy",
-		"color": "purple",
-		"size": "small",
-		"location": "europe"
+		"name": "outdoor time",
+		"type": "image",
+		"link": "media/RoofPicnic2.jpg",
+		"tag": "roof"
 	},
 	{
-		"name": "hibiscus",
-		"color": "red",
-		"size": "large",
-		"location": "asia"
+		"name": "plant trees",
+		"type": "image",
+		"link": "media/PlantTrees.jpg",
+		"tag": "roof"
 	},
 	{
-		"name": "carnation",
-		"color": "pink",
-		"size": "medium",
-		"location": "europe, asia"
+		"name": "rainbow",
+		"type": "image",
+		"link": "media/Rainbow2.jpg",
+		"tag": "roof"
 	},
 	{
-		"name": "lavender",
-		"color": "purple",
-		"size": "large",
-		"location": "europe, africa"
+		"name": "bag secured",
+		"type": "image",
+		"link": "media/ACNH.jpg",
+		"tag": "AC"
 	},
 	{
-		"name": "lilac",
-		"color": "purple",
-		"size": "large",
-		"location": "europe"
+		"name": "art",
+		"type": "image",
+		"link": "media/WashEm.jpg",
+		"tag": "social media, instagram"
 	},
 	{
-		"name": "violet",
-		"color": "purple",
-		"size": "small",
-		"location": "north america"
+		"name": "twitter",
+		"type": "image",
+		"link": "media/twitter2.png",
+		"tag": "social media, twitter"
 	},
-	{
-		"name": "jasmine",
-		"color": "white",
-		"size": "small",
-		"location": "europe, asia"
-	},
-		{
-		"name": "peony",
-		"color": "pink",
-		"size": "large",
-		"location": "europe, asia, north america"
-	}
-]
+	]
+
+	for(var i=0; i<objects.length; i++){
+	$('.object').append('<img class="inserted" src= " ' + objects[i].link + ' ">')
+}
+
+	for(var i=0; i<objects.length; i++){
+	$('.object').append('<div class="box">' + objects[i].name + '</div>')
+}
+
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $(".object").hide();
+  });
+  $("#show").click(function(){
+    $(".object").show();
+  });
+});
+
+
+
+
