@@ -16,20 +16,7 @@
 
 </body>
 		
-		<script type="text/javascript" src="main.js">
-			var counter = 0;
-
-		$(window).mousedown(function( event ) {
-			var flowersDiv = $('<div/>', {
-				'class': 'mouseDownBox'
-			})
-			.html(flowers[counter%flowers.length].image)
-			.css({'top': event.pageY-50, 'left': event.pageX-50})
-
-			counter = counter+1;
-			$('body').append(flowersDiv)
-		})
-		</script>
+		<script type="text/javascript" src="main.js"></script>
 </html>
 
 
