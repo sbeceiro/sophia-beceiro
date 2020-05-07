@@ -4,8 +4,11 @@ body {
 	background-color: black;
 	font-family: helvetica;
 	margin-left: 40px;
-	width: 40%; 
 
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -37,29 +40,52 @@ a:hover {
   color: cornflowerblue;
 }
 
-.menu-heading-container {
-    position: fixed;
-    /*bottom: 100vh;*/
-}
-
-.inserted {
-	height: 300px;
-}
-
-.box {
-	color: white;
-}
-
-#object1 {
+#music {
 	position: absolute;
  	top: 100vw;
-	right: 10vw;
+	left: 250vw;
+	border: 3px solid #73AD21;
+	z-index: 1;
+}
+
+.mouseDownBox {
+    position: absolute;
+    left: -10%;
+    top: 15%;
+    /*height: 200px;*/
+    z-index: 1;
+    color: white;
+    background-color: black;
+    padding: 0vh 40vw 29vh 35vw;;
+
+}
+
+.mouseDownBox > img {
+	height: 500px;
+	background-color: black; 
+}
+
+.menu-heading-container {
+    position: fixed;
+    z-index: 3;
+}
+
+.center {
+	/*left: 15vh;
+    padding: 10vh 10vw 10vh 30vw;*/
+	padding: 30vh 40vw 29vh 35vw;
+}
+
+#food {
+	position: absolute;
+ 	top: 100vw;
+	left: 400vw;
 	width: 200px;
 	height: 200px;
 	border: 3px solid #73AD21;
 }
 
-#object2 {
+#roof {
 	position: absolute;
  	top: 200vw;
 	left: 20vw;
@@ -68,7 +94,7 @@ a:hover {
 	border: 3px solid #73AD21;
 }
 
-#object3 {
+#walks {
 	position: absolute;
  	top: 300vw;
 	right: 30vw;
