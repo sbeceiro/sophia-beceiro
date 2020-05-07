@@ -40,14 +40,6 @@ a:hover {
   color: cornflowerblue;
 }
 
-#music {
-	position: absolute;
- 	top: 100vw;
-	left: 250vw;
-	border: 3px solid #73AD21;
-	z-index: 1;
-}
-
 .mouseDownBox {
     position: absolute;
     left: -10%;
@@ -67,6 +59,7 @@ a:hover {
 
 .menu-heading-container {
     position: fixed;
+    top: 18vw;
     z-index: 3;
 }
 
@@ -76,13 +69,25 @@ a:hover {
 	padding: 30vh 40vw 29vh 35vw;
 }
 
+.center1 {
+	/*left: 15vh;
+    padding: 10vh 10vw 10vh 30vw;*/
+	padding: 20vh 40vw 20vh 35vw;
+}
+
+#music {
+	position: absolute;
+ 	top: 100vw;
+	left: 250vw;
+	z-index: 1;
+}
+
 #food {
 	position: absolute;
  	top: 100vw;
 	left: 400vw;
 	width: 200px;
 	height: 200px;
-	border: 3px solid #73AD21;
 }
 
 #roof {
@@ -91,14 +96,26 @@ a:hover {
 	left: 20vw;
 	width: 200px;
 	height: 200px;
-	border: 3px solid #73AD21;
 }
 
 #walks {
 	position: absolute;
  	top: 300vw;
-	right: 30vw;
+	left: 200vw;
 	width: 200px;
 	height: 200px;
-	border: 3px solid #73AD21;
+}
+
+#misc {
+	position: absolute;
+ 	top: 450vw;
+	left: 100vw;
+	width: 200px;
+	height: 200px;
+}
+
+#home {
+	position: absolute;
+	top: 16vw;
+	left: 37vw;
 }
