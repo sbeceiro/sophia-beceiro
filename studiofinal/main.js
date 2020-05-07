@@ -11,7 +11,7 @@ var foods = [
 	},
 	{
 		"name": "gnocchi",
-		"link": "<img src= 'media/Gnocchi2.jpg'>",
+		"link": "<img src= 'media/gnocchi3.jpg'>",
 		"description": "<br>i would say this gnocchi was definitely a success."
 	},
 	{
@@ -98,12 +98,12 @@ var roofs = [
 	},
 	{
 		"name": "roof view",
-		"link": "<img src= 'media/roofview.jpeg'>",
+		"link": "<img src= 'media/roofview.jpg'>",
 		"description": "<br>a view of the roof on a sunny day."
 	},
 	{
 		"name": "lookin down",
-		"link": "<img src= 'media/lookindown.jpeg'>",
+		"link": "<img src= 'media/lookindown.jpg'>",
 		"description": "<br>we see u."
 	},
 	{
@@ -141,13 +141,13 @@ var walks = [
 	},
 	{
 		"name": "bandana masks",
-		"link": "<img src= 'media/badmasks.jpeg'>",
+		"link": "<img src= 'media/badmasks.jpg'>",
 		"description": "<br>before getting a hold of actual masks we suffocated under bandanas."
 	},
 	{
 		"name": "pretty sight",
 		"link": "<img src= 'media/flowers.jpeg'>",
-		"description": "<br>spring has spring! sorta!."
+		"description": "<br>spring has sprung! sorta!."
 	},
 	{
 		"name": "t joes",
@@ -156,17 +156,17 @@ var walks = [
 	},
 	{
 		"name": "rona selfie",
-		"link": "<img src= 'media/IMG_3163.jpeg'>",
+		"link": "<img src= 'media/IMG_3163.jpg'>",
 		"description": "<br>all masked up with nowhere to go"
 	},
 	{
 		"name": "fit check",
-		"link": "<img src= 'media/IMG_3168.jpeg'>",
+		"link": "<img src= 'media/IMG_3168.jpg'>",
 		"description": "<br>getting dressed is worthy of documentation nowadays."
 	},
 	{
 		"name": "masks",
-		"link": "<img src= 'media/newmask.jpeg'>",
+		"link": "<img src= 'media/newmask.jpg'>",
 		"description": "<br>strolling down sixth ave when we walked up on this lady selling neoprene masks for $5, honestly the cheapest we've seen masks in the city. jumped on that #sale."
 	},
 	]
@@ -217,7 +217,7 @@ var misc = [
 	},
 	{
 		"name": "springish",
-		"link": "<img src= 'media/spring.jpeg'>",
+		"link": "<img src= 'media/springg.jpg'>",
 		"description": "<br>went on a walk and i needed to take these beautiful flowers home with me."
 	},
 	{
@@ -232,12 +232,12 @@ var misc = [
 	},
 	{
 		"name": "plants",
-		"link": "<img src= 'media/IMG_3206.jpeg'>",
+		"link": "<img src= 'media/IMG_3206.jpg'>",
 		"description": "<br>hoping this sprouts!"
 	},
 	{
 		"name": "animal crossing",
-		"link": "<img src= 'media/acnh.jpeg'>",
+		"link": "<img src= 'media/acnh.jpg'>",
 		"description": "<br>yep"
 	},
 	]
